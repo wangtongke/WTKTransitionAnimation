@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F564B99E1D9A601400BAD1A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B99D1D9A601400BAD1A1 /* main.m */; };
+		F564B9A11D9A601400BAD1A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9A01D9A601400BAD1A1 /* AppDelegate.m */; };
+		F564B9A71D9A601400BAD1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F564B9A51D9A601400BAD1A1 /* Main.storyboard */; };
+		F564B9A91D9A601400BAD1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F564B9A81D9A601400BAD1A1 /* Assets.xcassets */; };
+		F564B9AC1D9A601400BAD1A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F564B9AA1D9A601400BAD1A1 /* LaunchScreen.storyboard */; };
+		F564B9B71D9A601500BAD1A1 /* WTKTransitionAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9B61D9A601500BAD1A1 /* WTKTransitionAnimationTests.m */; };
+		F564B9C21D9A601500BAD1A1 /* WTKTransitionAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9C11D9A601500BAD1A1 /* WTKTransitionAnimationUITests.m */; };
+		F564B9E11D9A608700BAD1A1 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9D01D9A608700BAD1A1 /* TwoViewController.m */; };
+		F564B9E21D9A608700BAD1A1 /* UIViewController+WTKAnimationTransitioningSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9D21D9A608700BAD1A1 /* UIViewController+WTKAnimationTransitioningSnapshot.m */; };
+		F564B9E31D9A608700BAD1A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9D41D9A608700BAD1A1 /* ViewController.m */; };
+		F564B9E41D9A608700BAD1A1 /* WTKAnimationDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9D61D9A608700BAD1A1 /* WTKAnimationDefault.m */; };
+		F564B9E51D9A608700BAD1A1 /* WTKAnimationDiffNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9D81D9A608700BAD1A1 /* WTKAnimationDiffNavi.m */; };
+		F564B9E61D9A608700BAD1A1 /* WTKAnimationKuGou.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9DA1D9A608700BAD1A1 /* WTKAnimationKuGou.m */; };
+		F564B9E71D9A608700BAD1A1 /* WTKBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9DC1D9A608700BAD1A1 /* WTKBaseAnimation.m */; };
+		F564B9E81D9A608700BAD1A1 /* WTKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9DE1D9A608700BAD1A1 /* WTKBaseViewController.m */; };
+		F564B9E91D9A608700BAD1A1 /* WTKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9E01D9A608700BAD1A1 /* WTKNavigationController.m */; };
+		F564B9EC1D9A60DA00BAD1A1 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = F564B9EA1D9A60DA00BAD1A1 /* 111.png */; };
+		F564B9ED1D9A60DA00BAD1A1 /* 222.png in Resources */ = {isa = PBXBuildFile; fileRef = F564B9EB1D9A60DA00BAD1A1 /* 222.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F564B9B31D9A601500BAD1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F564B9911D9A601400BAD1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F564B9981D9A601400BAD1A1;
+			remoteInfo = WTKTransitionAnimation;
+		};
+		F564B9BE1D9A601500BAD1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F564B9911D9A601400BAD1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F564B9981D9A601400BAD1A1;
+			remoteInfo = WTKTransitionAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F564B9991D9A601400BAD1A1 /* WTKTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTKTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F564B99D1D9A601400BAD1A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F564B99F1D9A601400BAD1A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F564B9A01D9A601400BAD1A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F564B9A61D9A601400BAD1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F564B9A81D9A601400BAD1A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F564B9AB1D9A601400BAD1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F564B9AD1D9A601400BAD1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F564B9B21D9A601500BAD1A1 /* WTKTransitionAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKTransitionAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F564B9B61D9A601500BAD1A1 /* WTKTransitionAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTKTransitionAnimationTests.m; sourceTree = "<group>"; };
+		F564B9B81D9A601500BAD1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F564B9BD1D9A601500BAD1A1 /* WTKTransitionAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKTransitionAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F564B9C11D9A601500BAD1A1 /* WTKTransitionAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTKTransitionAnimationUITests.m; sourceTree = "<group>"; };
+		F564B9C31D9A601500BAD1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F564B9CF1D9A608700BAD1A1 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		F564B9D01D9A608700BAD1A1 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		F564B9D11D9A608700BAD1A1 /* UIViewController+WTKAnimationTransitioningSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WTKAnimationTransitioningSnapshot.h"; sourceTree = "<group>"; };
+		F564B9D21D9A608700BAD1A1 /* UIViewController+WTKAnimationTransitioningSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WTKAnimationTransitioningSnapshot.m"; sourceTree = "<group>"; };
+		F564B9D31D9A608700BAD1A1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F564B9D41D9A608700BAD1A1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F564B9D51D9A608700BAD1A1 /* WTKAnimationDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationDefault.h; sourceTree = "<group>"; };
+		F564B9D61D9A608700BAD1A1 /* WTKAnimationDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationDefault.m; sourceTree = "<group>"; };
+		F564B9D71D9A608700BAD1A1 /* WTKAnimationDiffNavi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationDiffNavi.h; sourceTree = "<group>"; };
+		F564B9D81D9A608700BAD1A1 /* WTKAnimationDiffNavi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationDiffNavi.m; sourceTree = "<group>"; };
+		F564B9D91D9A608700BAD1A1 /* WTKAnimationKuGou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationKuGou.h; sourceTree = "<group>"; };
+		F564B9DA1D9A608700BAD1A1 /* WTKAnimationKuGou.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationKuGou.m; sourceTree = "<group>"; };
+		F564B9DB1D9A608700BAD1A1 /* WTKBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKBaseAnimation.h; sourceTree = "<group>"; };
+		F564B9DC1D9A608700BAD1A1 /* WTKBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKBaseAnimation.m; sourceTree = "<group>"; };
+		F564B9DD1D9A608700BAD1A1 /* WTKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKBaseViewController.h; sourceTree = "<group>"; };
+		F564B9DE1D9A608700BAD1A1 /* WTKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKBaseViewController.m; sourceTree = "<group>"; };
+		F564B9DF1D9A608700BAD1A1 /* WTKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKNavigationController.h; sourceTree = "<group>"; };
+		F564B9E01D9A608700BAD1A1 /* WTKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKNavigationController.m; sourceTree = "<group>"; };
+		F564B9EA1D9A60DA00BAD1A1 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		F564B9EB1D9A60DA00BAD1A1 /* 222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 222.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F564B9961D9A601400BAD1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F564B9AF1D9A601500BAD1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F564B9BA1D9A601500BAD1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F564B9901D9A601400BAD1A1 = {
+			isa = PBXGroup;
+			children = (
+				F564B99B1D9A601400BAD1A1 /* WTKTransitionAnimation */,
+				F564B9B51D9A601500BAD1A1 /* WTKTransitionAnimationTests */,
+				F564B9C01D9A601500BAD1A1 /* WTKTransitionAnimationUITests */,
+				F564B99A1D9A601400BAD1A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F564B99A1D9A601400BAD1A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F564B9991D9A601400BAD1A1 /* WTKTransitionAnimation.app */,
+				F564B9B21D9A601500BAD1A1 /* WTKTransitionAnimationTests.xctest */,
+				F564B9BD1D9A601500BAD1A1 /* WTKTransitionAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F564B99B1D9A601400BAD1A1 /* WTKTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F564B9EA1D9A60DA00BAD1A1 /* 111.png */,
+				F564B9EB1D9A60DA00BAD1A1 /* 222.png */,
+				F564B99F1D9A601400BAD1A1 /* AppDelegate.h */,
+				F564B9A01D9A601400BAD1A1 /* AppDelegate.m */,
+				F564B9D11D9A608700BAD1A1 /* UIViewController+WTKAnimationTransitioningSnapshot.h */,
+				F564B9D21D9A608700BAD1A1 /* UIViewController+WTKAnimationTransitioningSnapshot.m */,
+				F564B9DB1D9A608700BAD1A1 /* WTKBaseAnimation.h */,
+				F564B9DC1D9A608700BAD1A1 /* WTKBaseAnimation.m */,
+				F564B9DD1D9A608700BAD1A1 /* WTKBaseViewController.h */,
+				F564B9DE1D9A608700BAD1A1 /* WTKBaseViewController.m */,
+				F564B9DF1D9A608700BAD1A1 /* WTKNavigationController.h */,
+				F564B9E01D9A608700BAD1A1 /* WTKNavigationController.m */,
+				F564B9D31D9A608700BAD1A1 /* ViewController.h */,
+				F564B9D41D9A608700BAD1A1 /* ViewController.m */,
+				F564B9CF1D9A608700BAD1A1 /* TwoViewController.h */,
+				F564B9D01D9A608700BAD1A1 /* TwoViewController.m */,
+				F564B9D51D9A608700BAD1A1 /* WTKAnimationDefault.h */,
+				F564B9D61D9A608700BAD1A1 /* WTKAnimationDefault.m */,
+				F564B9D71D9A608700BAD1A1 /* WTKAnimationDiffNavi.h */,
+				F564B9D81D9A608700BAD1A1 /* WTKAnimationDiffNavi.m */,
+				F564B9D91D9A608700BAD1A1 /* WTKAnimationKuGou.h */,
+				F564B9DA1D9A608700BAD1A1 /* WTKAnimationKuGou.m */,
+				F564B9A51D9A601400BAD1A1 /* Main.storyboard */,
+				F564B9A81D9A601400BAD1A1 /* Assets.xcassets */,
+				F564B9AA1D9A601400BAD1A1 /* LaunchScreen.storyboard */,
+				F564B9AD1D9A601400BAD1A1 /* Info.plist */,
+				F564B99C1D9A601400BAD1A1 /* Supporting Files */,
+			);
+			path = WTKTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		F564B99C1D9A601400BAD1A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F564B99D1D9A601400BAD1A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F564B9B51D9A601500BAD1A1 /* WTKTransitionAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F564B9B61D9A601500BAD1A1 /* WTKTransitionAnimationTests.m */,
+				F564B9B81D9A601500BAD1A1 /* Info.plist */,
+			);
+			path = WTKTransitionAnimationTests;
+			sourceTree = "<group>";
+		};
+		F564B9C01D9A601500BAD1A1 /* WTKTransitionAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F564B9C11D9A601500BAD1A1 /* WTKTransitionAnimationUITests.m */,
+				F564B9C31D9A601500BAD1A1 /* Info.plist */,
+			);
+			path = WTKTransitionAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F564B9981D9A601400BAD1A1 /* WTKTransitionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F564B9C61D9A601500BAD1A1 /* Build configuration list for PBXNativeTarget "WTKTransitionAnimation" */;
+			buildPhases = (
+				F564B9951D9A601400BAD1A1 /* Sources */,
+				F564B9961D9A601400BAD1A1 /* Frameworks */,
+				F564B9971D9A601400BAD1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTKTransitionAnimation;
+			productName = WTKTransitionAnimation;
+			productReference = F564B9991D9A601400BAD1A1 /* WTKTransitionAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F564B9B11D9A601500BAD1A1 /* WTKTransitionAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F564B9C91D9A601500BAD1A1 /* Build configuration list for PBXNativeTarget "WTKTransitionAnimationTests" */;
+			buildPhases = (
+				F564B9AE1D9A601500BAD1A1 /* Sources */,
+				F564B9AF1D9A601500BAD1A1 /* Frameworks */,
+				F564B9B01D9A601500BAD1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F564B9B41D9A601500BAD1A1 /* PBXTargetDependency */,
+			);
+			name = WTKTransitionAnimationTests;
+			productName = WTKTransitionAnimationTests;
+			productReference = F564B9B21D9A601500BAD1A1 /* WTKTransitionAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F564B9BC1D9A601500BAD1A1 /* WTKTransitionAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F564B9CC1D9A601500BAD1A1 /* Build configuration list for PBXNativeTarget "WTKTransitionAnimationUITests" */;
+			buildPhases = (
+				F564B9B91D9A601500BAD1A1 /* Sources */,
+				F564B9BA1D9A601500BAD1A1 /* Frameworks */,
+				F564B9BB1D9A601500BAD1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F564B9BF1D9A601500BAD1A1 /* PBXTargetDependency */,
+			);
+			name = WTKTransitionAnimationUITests;
+			productName = WTKTransitionAnimationUITests;
+			productReference = F564B9BD1D9A601500BAD1A1 /* WTKTransitionAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F564B9911D9A601400BAD1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王同科";
+				TargetAttributes = {
+					F564B9981D9A601400BAD1A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F564B9B11D9A601500BAD1A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F564B9981D9A601400BAD1A1;
+					};
+					F564B9BC1D9A601500BAD1A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F564B9981D9A601400BAD1A1;
+					};
+				};
+			};
+			buildConfigurationList = F564B9941D9A601400BAD1A1 /* Build configuration list for PBXProject "WTKTransitionAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F564B9901D9A601400BAD1A1;
+			productRefGroup = F564B99A1D9A601400BAD1A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F564B9981D9A601400BAD1A1 /* WTKTransitionAnimation */,
+				F564B9B11D9A601500BAD1A1 /* WTKTransitionAnimationTests */,
+				F564B9BC1D9A601500BAD1A1 /* WTKTransitionAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F564B9971D9A601400BAD1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F564B9AC1D9A601400BAD1A1 /* LaunchScreen.storyboard in Resources */,
+				F564B9ED1D9A60DA00BAD1A1 /* 222.png in Resources */,
+				F564B9EC1D9A60DA00BAD1A1 /* 111.png in Resources */,
+				F564B9A91D9A601400BAD1A1 /* Assets.xcassets in Resources */,
+				F564B9A71D9A601400BAD1A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F564B9B01D9A601500BAD1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F564B9BB1D9A601500BAD1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F564B9951D9A601400BAD1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F564B9E51D9A608700BAD1A1 /* WTKAnimationDiffNavi.m in Sources */,
+				F564B9E11D9A608700BAD1A1 /* TwoViewController.m in Sources */,
+				F564B9A11D9A601400BAD1A1 /* AppDelegate.m in Sources */,
+				F564B9E21D9A608700BAD1A1 /* UIViewController+WTKAnimationTransitioningSnapshot.m in Sources */,
+				F564B9E41D9A608700BAD1A1 /* WTKAnimationDefault.m in Sources */,
+				F564B99E1D9A601400BAD1A1 /* main.m in Sources */,
+				F564B9E81D9A608700BAD1A1 /* WTKBaseViewController.m in Sources */,
+				F564B9E71D9A608700BAD1A1 /* WTKBaseAnimation.m in Sources */,
+				F564B9E91D9A608700BAD1A1 /* WTKNavigationController.m in Sources */,
+				F564B9E31D9A608700BAD1A1 /* ViewController.m in Sources */,
+				F564B9E61D9A608700BAD1A1 /* WTKAnimationKuGou.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F564B9AE1D9A601500BAD1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F564B9B71D9A601500BAD1A1 /* WTKTransitionAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F564B9B91D9A601500BAD1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F564B9C21D9A601500BAD1A1 /* WTKTransitionAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F564B9B41D9A601500BAD1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F564B9981D9A601400BAD1A1 /* WTKTransitionAnimation */;
+			targetProxy = F564B9B31D9A601500BAD1A1 /* PBXContainerItemProxy */;
+		};
+		F564B9BF1D9A601500BAD1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F564B9981D9A601400BAD1A1 /* WTKTransitionAnimation */;
+			targetProxy = F564B9BE1D9A601500BAD1A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F564B9A51D9A601400BAD1A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F564B9A61D9A601400BAD1A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F564B9AA1D9A601400BAD1A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F564B9AB1D9A601400BAD1A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F564B9C41D9A601500BAD1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F564B9C51D9A601500BAD1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F564B9C71D9A601500BAD1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTKTransitionAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F564B9C81D9A601500BAD1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTKTransitionAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F564B9CA1D9A601500BAD1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKTransitionAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKTransitionAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKTransitionAnimation.app/WTKTransitionAnimation";
+			};
+			name = Debug;
+		};
+		F564B9CB1D9A601500BAD1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKTransitionAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKTransitionAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKTransitionAnimation.app/WTKTransitionAnimation";
+			};
+			name = Release;
+		};
+		F564B9CD1D9A601500BAD1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKTransitionAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKTransitionAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKTransitionAnimation;
+			};
+			name = Debug;
+		};
+		F564B9CE1D9A601500BAD1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKTransitionAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKTransitionAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKTransitionAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F564B9941D9A601400BAD1A1 /* Build configuration list for PBXProject "WTKTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F564B9C41D9A601500BAD1A1 /* Debug */,
+				F564B9C51D9A601500BAD1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F564B9C61D9A601500BAD1A1 /* Build configuration list for PBXNativeTarget "WTKTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F564B9C71D9A601500BAD1A1 /* Debug */,
+				F564B9C81D9A601500BAD1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F564B9C91D9A601500BAD1A1 /* Build configuration list for PBXNativeTarget "WTKTransitionAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F564B9CA1D9A601500BAD1A1 /* Debug */,
+				F564B9CB1D9A601500BAD1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F564B9CC1D9A601500BAD1A1 /* Build configuration list for PBXNativeTarget "WTKTransitionAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F564B9CD1D9A601500BAD1A1 /* Debug */,
+				F564B9CE1D9A601500BAD1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F564B9911D9A601400BAD1A1 /* Project object */;
+}
