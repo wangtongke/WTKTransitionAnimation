@@ -92,13 +92,12 @@ const static NSTimeInterval DefauleAnimationDuration = 0.6;
 
 #pragma mark - UIViewControllerAnimationTransition
 
-// This is used for percent driven interactive transitions, as well as for container controllers that have companion animations that might need to
-// synchronize with the main animation.
+
 - (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext
 {
     return self.duration;
 }
-// This method can only  be a nop if the transition is interactive and not a percentDriven interactive transition.
+
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext
 {
     if (self.transitionType == UINavigationControllerOperationPush)
