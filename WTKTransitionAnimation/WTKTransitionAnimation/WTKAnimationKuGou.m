@@ -97,7 +97,7 @@
                             options:UIViewAnimationOptionCurveLinear
                          animations:^{
 
-                             fromVC.view.transform = CGAffineTransformMakeRotation(0.13 * M_PI);
+                             fromVC.view.transform = CGAffineTransformMakeRotation(0.122 * M_PI);
                              toVC.snapshot.alpha = 1;
                          }
                          completion:^(BOOL finished) {
@@ -118,11 +118,11 @@
     {
         [UIView animateWithDuration:duration
                               delay:0
-             usingSpringWithDamping:0
+             usingSpringWithDamping:1.0
               initialSpringVelocity:0
                             options:UIViewAnimationOptionCurveLinear
                          animations:^{
-                             fromVC.view.transform = CGAffineTransformMakeRotation(0.3 * M_PI);
+                             fromVC.view.transform = CGAffineTransformMakeRotation(0.122 * M_PI);
                              toVC.snapshot.alpha = 1;
         
                          }
