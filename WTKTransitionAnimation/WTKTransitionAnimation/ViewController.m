@@ -36,7 +36,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
     [[UIApplication sharedApplication].delegate window].rootViewController = [[WTKNavigationController alloc]initWithRootViewController:self];
-    self.array = @[@"AnimateTypeDefault",@"AnimateTypeDiffNavi",@"AnimateTypeKuGou",@"AnimateTypeRound"];
+    self.array = @[@"AnimateTypeDefault",@"AnimateTypeDiffNavi",@"AnimateTypeKuGou",@"AnimateTypeRound",@"AnimationOval"];
     
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
