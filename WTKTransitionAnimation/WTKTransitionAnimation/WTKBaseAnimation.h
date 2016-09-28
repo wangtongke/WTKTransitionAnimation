@@ -17,6 +17,7 @@ typedef NS_ENUM(NSInteger,WTKAnimateType)
     WTKAnimateTypeDefault = 0,
     WTKAnimateTypeDiffNavi,
     WTKAnimateTypeKuGou,
+    WTKAnimateTypeRound,
     
 };
 

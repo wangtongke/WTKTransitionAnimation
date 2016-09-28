@@ -19,8 +19,7 @@
     CGRect bounds               = [[UIScreen mainScreen] bounds];
     
     fromVc.view.hidden          = YES;
-    
-//    [[transitionContext containerView] addSubview:fromVc.snapshot];
+
     [[transitionContext containerView] addSubview:toVc.view];
     [[toVc.navigationController.view superview] insertSubview:fromVc.snapshot belowSubview:toVc.navigationController.view];
     toVc.navigationController.view.transform = CGAffineTransformMakeTranslation(CGRectGetWidth(bounds), 0);
@@ -45,8 +44,11 @@
 - (void)pop:(id<UIViewControllerContextTransitioning>)transitionContext {
 
     WTKBaseViewController * fromVc  = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+    
     UIViewController * toVc         = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+    
     NSTimeInterval duration         = [self transitionDuration:transitionContext];
+    
     CGRect bounds                   = [[UIScreen mainScreen] bounds];
     
     [fromVc.view addSubview:fromVc.snapshot];
@@ -59,8 +61,6 @@
     [[transitionContext containerView] addSubview:toVc.view];
     [[transitionContext containerView] addSubview:toVc.snapshot];
     [[transitionContext containerView] sendSubviewToBack:toVc.snapshot];
-    
-    
 
     if (fromVc.interactivePopTransition)
     {

@@ -36,7 +36,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
     [[UIApplication sharedApplication].delegate window].rootViewController = [[WTKNavigationController alloc]initWithRootViewController:self];
-    self.array = @[@"AnimateTypeDefault",@"WTKAnimateTypeDiffNavi",@"WTKAnimateTypeKuGou"];
+    self.array = @[@"AnimateTypeDefault",@"AnimateTypeDiffNavi",@"AnimateTypeKuGou",@"AnimateTypeRound"];
     
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -51,6 +51,7 @@
     tableView.delegate      = self;
     tableView.dataSource    = self;
     [self.view addSubview:tableView];
+    tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
 

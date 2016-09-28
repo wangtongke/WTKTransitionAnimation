@@ -10,6 +10,7 @@
 #import "WTKAnimationDefault.h"
 #import "WTKAnimationKuGou.h"
 #import "WTKAnimationDiffNavi.h"
+#import "WTKAnimationRound.h"
 
 #define kHeight [[UIScreen mainScreen] bounds].size.height
 #define kWidth [[UIScreen mainScreen] bounds].size.width
@@ -53,6 +54,11 @@ const static NSTimeInterval DefauleAnimationDuration = 0.6;
         case WTKAnimateTypeKuGou:
         {
             self = [[WTKAnimationKuGou alloc]init];
+        }
+            break;
+        case WTKAnimateTypeRound:
+        {
+            self = [[WTKAnimationRound alloc]init];
         }
             break;
             

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F52D11F71D9B60AB004D7C66 /* WTKAnimationRound.m in Sources */ = {isa = PBXBuildFile; fileRef = F52D11F61D9B60AB004D7C66 /* WTKAnimationRound.m */; };
 		F564B99E1D9A601400BAD1A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B99D1D9A601400BAD1A1 /* main.m */; };
 		F564B9A11D9A601400BAD1A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F564B9A01D9A601400BAD1A1 /* AppDelegate.m */; };
 		F564B9A71D9A601400BAD1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F564B9A51D9A601400BAD1A1 /* Main.storyboard */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F52D11F51D9B60AB004D7C66 /* WTKAnimationRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationRound.h; sourceTree = "<group>"; };
+		F52D11F61D9B60AB004D7C66 /* WTKAnimationRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationRound.m; sourceTree = "<group>"; };
 		F564B9991D9A601400BAD1A1 /* WTKTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTKTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F564B99D1D9A601400BAD1A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F564B99F1D9A601400BAD1A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				F564B9D81D9A608700BAD1A1 /* WTKAnimationDiffNavi.m */,
 				F564B9D91D9A608700BAD1A1 /* WTKAnimationKuGou.h */,
 				F564B9DA1D9A608700BAD1A1 /* WTKAnimationKuGou.m */,
+				F52D11F51D9B60AB004D7C66 /* WTKAnimationRound.h */,
+				F52D11F61D9B60AB004D7C66 /* WTKAnimationRound.m */,
 				F564B9A51D9A601400BAD1A1 /* Main.storyboard */,
 				F564B9A81D9A601400BAD1A1 /* Assets.xcassets */,
 				F564B9AA1D9A601400BAD1A1 /* LaunchScreen.storyboard */,
@@ -318,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52D11F71D9B60AB004D7C66 /* WTKAnimationRound.m in Sources */,
 				F564B9E51D9A608700BAD1A1 /* WTKAnimationDiffNavi.m in Sources */,
 				F564B9E11D9A608700BAD1A1 /* TwoViewController.m in Sources */,
 				F564B9A11D9A601400BAD1A1 /* AppDelegate.m in Sources */,
@@ -554,6 +560,7 @@
 				F564B9C81D9A601500BAD1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F564B9C91D9A601500BAD1A1 /* Build configuration list for PBXNativeTarget "WTKTransitionAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +569,7 @@
 				F564B9CB1D9A601500BAD1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F564B9CC1D9A601500BAD1A1 /* Build configuration list for PBXNativeTarget "WTKTransitionAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +578,7 @@
 				F564B9CE1D9A601500BAD1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
